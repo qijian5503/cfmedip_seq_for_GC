@@ -1,2 +1,2 @@
 # cfmedip_seq_for_GC
-Circulating cfDNA methylation biomarkers for gastric cancer detection
+Plasma cfDNA methylome-based liquid biopsies for accurate gastric cancer detection
