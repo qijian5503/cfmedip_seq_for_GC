@@ -23,7 +23,7 @@ write.table(all_test_pre,"test_set_cutoff_auc.tsv",quote = F,row.names = F,col.n
 write.table(all_valid_pre,"valid_set_cutoff_auc.tsv",quote = F,row.names = F,col.names = F,sep = "\t")
 
 
-pdf("rf_tree_plot.pdf",20,10)
+pdf("rf_tree_plot.pdf",30,10)
 for (i in 1:100) {
     for (k in 1:100) {
         p=reprtree::plot.getTree(limma_modlist[[i]]$rf_mod,k = k,caret = T)
